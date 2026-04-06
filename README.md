@@ -59,9 +59,11 @@ I love building clean, interactive, and professional web projects.
   <img width="12" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" height="60" alt="React" />
   <img width="12" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg" height="60" alt="Angular" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="60" alt="HTML5" />
   <img width="12" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" height="60" alt="Java" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="60" alt="CSS3" />
+  <img width="12" />
+  <img src="https://vitejs.dev/logo.svg" height="60" alt="Vite" />
 </div>
 
 ---
