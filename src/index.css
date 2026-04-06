@@ -1,0 +1,90 @@
+:root {
+  --primary-color: #7f5af0;
+  /* violet */
+  --bg-light: #f5f5f5;
+  --bg-dark: #121212;
+  --text-light: #000;
+  --text-dark: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+nav select {
+  padding: 0.3rem;
+  border-radius: 4px;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  color: white;
+  margin-left: 1rem;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #6c42d6;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.contact-links {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.contact-links a:hover {
+  color: #6c42d6;
+}
